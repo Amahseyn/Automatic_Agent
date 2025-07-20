@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+bcrypt
+tabula-py
+openpyxl
+psycopg2-binary
+python-jose[cryptography]
+pydantic[email]
+pydantic
+passlib
+google-generativeai
+langchain-google-genai
+pandas
+langchain-community
+faiss-gpu
+faiss-cpu
