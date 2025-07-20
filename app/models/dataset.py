@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from app.database.session import Base
 from sqlalchemy.dialects.postgresql import JSON  # or use Text/JSON string if not using PostgreSQL
 
-class ImportedDataset(Base):
+class Dataset(Base):
     __tablename__ = "datasets"
 
     id = Column(Integer, primary_key=True)
